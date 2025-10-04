@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Exercise 5 (W4) — User Timeline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>User Timeline</h1>
+
+  <div id="main-content"> <!-- container for all posts -->
+      
+      
+<div class="post"> <!-- one post: container that groups all parts together -->
+
+  <!-- .timestamp shows when the post was made -->
+  <p class="timestamp">Tue 14:43</p> 
+
+  <!-- .author contains information about who posted -->
+  <!-- Inside it, .username wraps only the username so it can be styled differently -->
+  <!-- The <span> tag is used here because it allows inline styling without breaking the flow of text -->
+  <p class="author">
+    <span class="username">The_User</span> posted:
+  </p> 
+
+  <!-- main body of the post, no class needed since all posts can share the same style -->
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus
+    mi, rutrum vel dapibus at, porta et elit. Mauris vehicula dignissim
+    urna. Vivamus ante libero, finibus sed justo vitae, maximus elementum
+    leo. Pellentesque habitant morbi tristique senectus et netus et
+    malesuada fames ac turpis egestas.
+  </p> 
+
+</div>
+
+
+    <div class="post">
+      <p class="timestamp">Tue 14:45</p>
+      <p class="author"><span class="username">The_User</span> posted:</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus
+        mi, rutrum vel dapibus at, porta et elit. Mauris vehicula dignissim
+        urna. Vivamus ante libero, finibus sed justo vitae, maximus elementum
+        leo. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas.
+      </p>
+    </div>
+
+    <div class="post">
+      <p class="timestamp">Tue 14:49</p>
+      <p class="author"><span class="username">The_User</span> posted:</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus
+        mi, rutrum vel dapibus at, porta et elit. Mauris vehicula dignissim
+        urna. Vivamus ante libero, finibus sed justo vitae, maximus elementum
+        leo. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas.
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>

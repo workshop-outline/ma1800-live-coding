@@ -1,0 +1,63 @@
+/* CSS Document */
+
+html {
+  font-size: 100%; /* Use browser default font size as base */
+}
+
+body {
+  background: gainsboro;
+}
+
+/* Main content container */
+#content {
+  width: 50%;        /* Take up half of the page width */
+  max-width: 800px;  /* Limit maximum width for readability */
+  min-width: 250px;  /* Ensure it doesn’t shrink too small */
+  margin: 0 auto;    /* Center horizontally */
+  font-family: sans-serif;
+  background: gainsboro;
+  color: navy;
+}
+
+h1 {
+  font-size: 4rem;          /* Four times the base font size */
+  color: navy;
+  border-bottom: 4px solid navy;
+  margin: 25px 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.5rem; /* Slightly larger than default for readability */
+}
+
+/* Image + caption container */
+.photo-container {
+  float: right;        /* Push image and caption to the right side of text */
+  width: 50%;          /* Take up half of the content container */
+  min-width: 230px;    /* Prevent shrinking too small */
+  margin: 0 0 15px 25px; /* Space around the image */
+  background: navy;
+  color: gainsboro;    /* Caption text colour */
+}
+
+.photo {
+  width: 100%; /* Scale image to fit container width */
+}
+
+.caption {
+  font-size: 16px;
+  padding: 0 10px;
+  font-style: italic; /* Differentiate captions from body text */
+}
+
+/* Links */
+a {
+  color: crimson;
+  text-decoration: none; /* Cleaner default */
+}
+
+a:hover {
+  background: navy;
+  color: gainsboro; /* Ensure hover state is still readable */
+}

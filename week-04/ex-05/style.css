@@ -1,0 +1,34 @@
+
+/* CSS Document */
+
+body {
+  font-family: sans-serif;
+}
+
+#main-content {
+  width: 600px;
+  margin: 0 auto; /* centers the timeline */
+}
+
+.post {
+  box-shadow: 5px 5px 0px coral; /* adds a shadow effect for depth */
+  border: 1px solid coral;
+  margin: 25px 0;
+  padding: 15px;
+}
+
+.author {
+  font-style: italic;
+}
+
+.timestamp {
+  color: gray;
+  text-align: right;
+  font-style: italic;
+}
+
+.username {
+  font-style: normal;   /* overrides .author italics */
+  font-weight: bold;    /* highlights the username */
+  color: coral;         /* links username colour to the post border */
+}

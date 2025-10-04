@@ -1,0 +1,53 @@
+/* This is a CSS comment */
+
+/* 
+  Useful resources:
+    - Colour picker: https://htmlcolorcodes.com/color-picker/
+    - CSS property reference: https://www.w3schools.com/cssref/default.asp
+*/
+
+/* Styles for the whole page */
+body {
+  background: #ffffff;   /* page background colour */
+  color: #ff0000;        /* default text colour */
+  font-family: sans-serif;
+}
+
+/* Styles for all <h1> headings */
+h1 {
+  margin: 0 50px;
+  font-size: 36pt;
+  text-decoration: underline;
+}
+
+/* Styles for all <p> paragraphs */
+p {
+  margin: 50px;
+  padding: 25px;
+  font-size: 16pt;
+  border: 2px solid #000000;
+}
+
+/* Styles for all <div> elements */
+div {
+  border: 5px dashed #0000ff; /* dashed blue border */
+  color: #0000ff;             /* text inside turns blue */
+}
+
+/* 
+  A class starts with a dot (.) 
+  and can be reused on many elements
+*/
+.highlight {
+  background: #ffff00;  /* yellow background */
+}
+
+/* 
+  An ID starts with a hash (#) 
+  and should only be used once per page
+*/
+#summary {
+  font-size: 24pt;
+  font-style: italic;
+  color: #000000;
+}
